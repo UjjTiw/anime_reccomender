@@ -38,10 +38,10 @@ pip install -r requirements.txt
 
 ### 3. Run the Training Script
 
-To train the recommendation model and save it, run the `train_model.py` script:
+To train the recommendation model and save it, run the `train.py` script:
 
 ```bash
-python train_model.py
+python train.py
 ```
 
 This will process the data, train the model, and save the necessary files (`indices.pkl`, `sig.pkl`, `anime_csv.pkl`) for recommendations.
@@ -51,10 +51,10 @@ This will process the data, train the model, and save the necessary files (`indi
 Start the FastAPI application using `uvicorn`:
 
 ```bash
-uvicorn app.main:app --reload
+uvicorn app:app --reload
 ```
 
-Replace `app.main:app` with the appropriate module path if your `main.py` file is located elsewhere.
+Replace `app:app` with the appropriate module path if your `app.py` file is located elsewhere.
 
 ### 5. Access the Application
 
@@ -68,10 +68,9 @@ You should see the anime recommender frontend where you can enter an anime name 
 
 ## Project Structure
 
-- `app/main.py`: FastAPI application that serves recommendations and provides an API endpoint.
-- `app/templates/index.html`: Frontend HTML template.
-- `app/static/`: Directory for static files such as CSS and JavaScript.
-- `train_model.py`: Script to train the recommendation model and save it.
+- `artifact/`: Folder containing the data.
+- `app.py`: FastAPI application that serves recommendations.
+- `train.py`: Script to train the recommendation model and save it.
 - `requirements.txt`: List of project dependencies.
 
 ## Dependencies
@@ -82,9 +81,3 @@ You should see the anime recommender frontend where you can enter an anime name 
 - `pandas`
 - `pickle` (part of Python Standard Library)
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-This README now includes the correct repository link and provides clear instructions for setting up and running your project.
