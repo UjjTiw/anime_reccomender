@@ -69,7 +69,7 @@ You should see the anime recommender frontend where you can enter an anime name 
 ## Project Structure
 
 - `artifact/`: Folder containing the data.
-- `app.py`: FastAPI application that serves recommendations.
+- `app.py`: StreamLit application that serves recommendations.
 - `train.py`: Script to train the recommendation model and save it.
 - `requirements.txt`: List of project dependencies.
 
