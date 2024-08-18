@@ -1,6 +1,3 @@
-Here’s the updated `README.md` with the correct repository link:
-
-```markdown
 # Anime Recommendation System
 
 This project provides a recommendation system for anime based on content similarity. It includes a FastAPI backend for serving recommendations and a script to train the recommendation model.
