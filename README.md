@@ -1,6 +1,6 @@
 # Anime Recommendation System
 
-This project provides a recommendation system for anime based on content similarity. It includes a FastAPI backend for serving recommendations and a script to train the recommendation model.
+This project provides a recommendation system for anime based on content similarity. It includes a Streamlit application recommendations and a script to train the recommendation model.
 
 ## Getting Started
 
