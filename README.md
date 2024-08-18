@@ -81,3 +81,10 @@ You should see the anime recommender frontend where you can enter an anime name 
 - `pandas`
 - `pickle` (part of Python Standard Library)
 
+## Sample Video
+
+
+https://github.com/user-attachments/assets/20cdc444-77c9-43e5-8fe5-14278f2efa3b
+
+
+
