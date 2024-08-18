@@ -3,3 +3,4 @@ sig.pkl
 anime_csv.pkl
 indices.pkl
 venv
+__pycache__
