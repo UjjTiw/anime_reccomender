@@ -75,8 +75,8 @@ You should see the anime recommender frontend where you can enter an anime name 
 
 ## Dependencies
 
-- `fastapi`
-- `uvicorn`
+- `streamlit`
+- `matplotlib`
 - `scikit-learn`
 - `pandas`
 - `pickle` (part of Python Standard Library)
